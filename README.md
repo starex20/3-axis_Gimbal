@@ -1,5 +1,5 @@
 # 3-axis_Gimbal
-3-axis Gimbal using ATmega4809 &amp; MPU6050
+Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다.
 
 
 <br/><br/>
