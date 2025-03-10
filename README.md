@@ -6,7 +6,7 @@
 
 ## Block Diagram
 
-
+![Image](https://github.com/user-attachments/assets/e93b685f-9f1d-4041-94fe-b9ae50016de8)
 
 <br/><br/>
 
