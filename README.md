@@ -35,12 +35,15 @@ yaw(수평 회전) 값의 경우 중력에 수직이므로 가속도 센서는 �
 <br/>
 -> 자이로스코프는 적분 방식으로 동작하기 때문에 시간이 지남에 따라 오차가 누적되어, 센서가 정지 상태임에도 yaw 값이 점진적으로 증가하거나 감소하는 **'yaw drift'** 현상이 발생
 
-
 ![image](https://github.com/user-attachments/assets/47367b5e-fe82-440c-bfbe-1372ce9f7de5)
 
 해결 방법 : 센서 데이터를 폴링 방식으로 읽어오도록 하고 main 루프 1회를 1주기로 설정, 초기 yaw 값 변화 주기를 측정하고 평균을 계산해 소프트웨어 카운터의 주기를 설정한 뒤에 카운터가 yaw 값의 변화를 상쇄시키는 방식으로 설계.
 
+</br>
 
++ ### 서보 모터 제어
+![image](https://github.com/user-attachments/assets/457815c5-239c-4ba5-ac7e-591a79d5eaa8)
+![image](https://github.com/user-attachments/assets/073e4078-b112-416b-a2f7-0315df9814f5)
 
 
 
