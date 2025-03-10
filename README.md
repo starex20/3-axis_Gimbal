@@ -10,6 +10,14 @@
 
 <br/><br/>
 
+## 회로도
+
+![회로도](https://github.com/user-attachments/assets/56cd2202-b614-4b39-abbf-1b404bf69390)
+
+
+<br/><br/>
+
+
 ## Demo
 
 
