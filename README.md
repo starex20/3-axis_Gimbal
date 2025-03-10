@@ -10,6 +10,9 @@ Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다
 ![image](https://github.com/user-attachments/assets/fd4315e0-d639-4202-957e-786e02ee7be6)
 
 6축의 자이로-가속도 센서로  3축 회전(roll, pitch, yaw)의 자이로 및 가속도 값을 측정. I2C 인터페이스를 통해 ATmega4809 MCU와 통신하며, roll, pitch, yaw 데이터를 받아옴.
+  - ㄴㄴ
++ ### 상보 필터
+
 
 
 <br/><br/>
