@@ -10,8 +10,9 @@ Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다
 ![image](https://github.com/user-attachments/assets/fd4315e0-d639-4202-957e-786e02ee7be6)
 
 6축의 자이로-가속도 센서로  3축 회전(roll, pitch, yaw)의 자이로 및 가속도 값을 측정. I2C 인터페이스를 통해 ATmega4809 MCU와 통신하며, roll, pitch, yaw 데이터를 받아옴.
-  - SCL frequency : MPU6050 데이터시트를 참조하여 400kHz로 설정.
-  - Sampling frequency : 서보 모터의 동작 주파수가 50Hz임을 고려하여 200Hz로 설정
+    - SCL frequency : MPU6050 데이터시트를 참조하여 400kHz로 설정.
+    - Sampling frequency : 서보 모터의 동작 주파수가 50Hz임을 고려하여 200Hz로 설정
+
 
 + ### 상보 필터
 
