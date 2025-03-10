@@ -18,6 +18,10 @@ Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다
 
 + ### 상보 필터
 
+![image](https://github.com/user-attachments/assets/ff1c16ca-90d3-4cb5-97ca-b7dc2c5a5044)
+
+
+
 
 
 <br/><br/>
