@@ -1,5 +1,6 @@
 # 3-axis Gimbal
-![image](https://github.com/user-attachments/assets/8a0d9580-661d-46ac-a428-d63fcca138b8)
+![image](https://github.com/user-attachments/assets/4e2d29bb-bc3a-4f6c-8e2c-fbc22ae3936b)
+
 
 
 <br/><br/>
