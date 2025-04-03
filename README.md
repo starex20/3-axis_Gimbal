@@ -1,5 +1,6 @@
-# 3-axis_Gimbal
-Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다. <br/> MCU 주변 회로 설계부터 Baremetal 펌웨어 개발, 3D 프린터를 이용한 시제품 제작까지 진행하였습니다.
+# 3-axis Gimbal
+![image](https://github.com/user-attachments/assets/8a0d9580-661d-46ac-a428-d63fcca138b8)
+
 
 <br/><br/>
 
