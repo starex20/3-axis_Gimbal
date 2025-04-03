@@ -9,9 +9,14 @@ Atmega4809를 활용한 3축 짐벌 임베디드 시스템 프로젝트입니다
 
 ![image](https://github.com/user-attachments/assets/fd4315e0-d639-4202-957e-786e02ee7be6)
 
-6축의 자이로-가속도 센서로  3축 회전(roll, pitch, yaw)의 자이로 및 가속도 값을 측정. **I2C 인터페이스**를 통해 ATmega4809 MCU와 통신하며, roll, pitch, yaw 데이터를 받아옴. 
+6축의 자이로-가속도 센서로  3축 회전(roll, pitch, yaw)의 자이로 및 가속도 값을 측정. **I2C 인터페이스**를 통해 ATmega4809 MCU와 통신하며, roll, pitch, yaw 데이터를 받아온다. 
 <br/>
- + Sampling Frequency : MPU6050은 최대 샘플링 속도를 1kHz까지 지원한다. 그러나 최대 속도로 샘플링할 경우 오히려 Atmega4809가 연산량을 따라잡지 못할 뿐더러 노이즈가 더 심해진다. 또한 모터의 동작 주파수가 50Hz이므로 1kHz까지 빠른 sampling rate는 필요없다. 따라서 **Sampling Frequency를 200Hz로 설정**
+ + Sampling Frequency : MPU6050은 최대 1kHz의 샘플링 속도를 지원하지만, 최대 속도로 샘플링할 경우 Atmega4809가 연산량을 처리하지 못할 가능성이 있으며, 노이즈도 증가할 수 있다. 또한, 모터의 동작 주파수가 50Hz이므로 1kHz의 높은 샘플링 속도는 불필요하다. 따라서 샘플링 주파수를 **200Hz**로 설정
+
+
+
+
+
    
 <br/><br/>
 
